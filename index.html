@@ -17,11 +17,16 @@
     body {
       background-color: #d5e1ef;
       font-size: 15px;
+      height: 100vh;
+    }
+
+    .main-cntnr {
+      display: flex;
+      align-items: center;
+      justify-content: center
     }
 
     .cntnr {
-      margin: auto;
-      margin-top: 4%;
       width: 320px;
       height: 500px;
       background-color: #ffff;
@@ -42,14 +47,16 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-    .heading{
+
+    .heading {
       font-family: 'Outfit', sans-serif;
       font-weight: 700;
       font-size: 20px;
       margin: 15px 5px 0px 5px;
       padding: 5px 25px 5px 25px;
     }
-    .content{
+
+    .content {
       font-family: 'Outfit', sans-serif;
       font-weight: 400;
       margin: 15px 15px 0px 15px;
@@ -59,19 +66,20 @@
 </head>
 
 <body>
-  <div class="cntnr">
-    <div class="img-qr">
-      <img src="./images/image-qr-code.png" width="290px" alt="">
-    </div>
-    <div class="text-cntn">
-      <p class="heading">Improve your front-end skills by building projects</p>
-      <p class="content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      
+  <div class="main-cntnr">
+    <div class="cntnr">
+      <div class="img-qr">
+        <img src="./images/image-qr-code.png" width="290px" alt="">
+      </div>
+      <div class="text-cntn">
+        <p class="heading">Improve your front-end skills by building projects</p>
+        <p class="content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 
-      
+
+
+      </div>
     </div>
   </div>
-
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
